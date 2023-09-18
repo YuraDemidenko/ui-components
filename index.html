@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Components Demo</title>
+</head>
+<body>
+
+    <h1>Demo Components</h1>
+    <div class="demo-container">
+        <div class="left-bar">
+            <div class="drop-down">
+                <h3>Drop-down:</h3>
+                <div class="drop-box">
+                    <div class="drop-btn">Drop-down
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+                    <div class="drop-menu">
+                        <ul class="list">
+                            <li>Demo-Title</li>
+                            <li>Demo-Title</li>
+                            <li>Demo-Title</li>
+                            <li>Demo-Title</li>
+                            <li>Demo-Title</li>
+                            <li>Demo-Title</li>
+                            <li>Demo-Title</li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <h3>Modal-Window:</h3>
+    
+            <div class="modal-btn-box">
+                <div class="modal" data-modal='m1'>Open modal</div>
+            </div>
+    
+            <div class="modal-container" id="m1">
+                <div class="overlay" data-modal="close"></div>
+                <div class="modal">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, eaque iste vel soluta inventore illum modi?
+                        Iure, accusantium numquam, odio unde neque aperiam commodi illo modi minus velit similique exercitationem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eum! Obcaecati perferendis tenetur deserunt quisquam quis aperiam suscipit provident nulla. 
+                        Explicabo quisquam repudiandae debitis voluptas quo incidunt, accusantium sequi non!
+                    
+                    </p>
+                </div>
+            </div>
+    
+
+            <h3>Progress-Bar:</h3>
+            <div class="progress-box">
+                <div class="progress-svg"></div>
+            </div>
+
+        </div>
+
+        <div class="right-bar">
+
+        
+            <div class="accordion-box">
+                <h3>Accordion:</h3>
+            <div class="wrapper">
+                    
+                    <div class="accordion-title" data-btn='a1'>Some Title</div>
+                    <div class="accordion-content" id='a1'>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur rerum commodi nam tempora quod ex repellat iste recusandae praesentium,
+                            deserunt dolore incidunt corrupti ipsa facilis facere sed. Ex, iste.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis labore tempore! Repellendus dolor alias quibusdam reiciendis,
+                            enim ab delectus aliquam, sit dolorum ut ad necessitatibus ex architecto dignissimos? Voluptatem!
+                        </p>
+                    </div>
+                    
+                
+                    <div class="accordion-title" data-btn='a2'>Some Title</div>
+                    <div class="accordion-content" id='a2'>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur rerum commodi nam tempora quod ex repellat iste recusandae praesentium,
+                            deserunt dolore incidunt corrupti ipsa facilis facere sed. Ex, iste.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis labore tempore! Repellendus dolor alias quibusdam reiciendis,
+                            enim ab delectus aliquam, sit dolorum ut ad necessitatibus ex architecto dignissimos? Voluptatem!
+                        </p>
+                    </div>
+                    
+                
+                    <div class="accordion-title" data-btn='a3'>Some Title</div>
+                    <div class="accordion-content" id='a3'>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur rerum commodi nam tempora quod ex repellat iste recusandae praesentium,
+                            deserunt dolore incidunt corrupti ipsa facilis facere sed. Ex, iste.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis labore tempore! Repellendus dolor alias quibusdam reiciendis,
+                            enim ab delectus aliquam, sit dolorum ut ad necessitatibus ex architecto dignissimos? Voluptatem!
+                        </p>
+                    </div>
+                    
+                
+                    <div class="accordion-title" data-btn='a4'>Some Title</div>
+                    <div class="accordion-content" id='a4'>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur rerum commodi nam tempora quod ex repellat iste recusandae praesentium,
+                            deserunt dolore incidunt corrupti ipsa facilis facere sed. Ex, iste.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis labore tempore! Repellendus dolor alias quibusdam reiciendis,
+                            enim ab delectus aliquam, sit dolorum ut ad necessitatibus ex architecto dignissimos? Voluptatem!
+                        </p>
+                    </div>    
+            </div>
+            </div>
+
+
+            <div class="tab-box">
+                <h3>Tabs:</h3>
+                <div class="btn-group">
+                    <a class="tab-btn active" data-tab='first'>Tab 1</a>
+                    <a class="tab-btn" data-tab='second'>Tab 2</a>
+                    <a class="tab-btn" data-tab='third'>Tab 3</a>
+                </div>
+                <div class="tab-content active" id='first'> 
+                    <p>
+                        1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur sunt blanditiis dolor
+                        culpa at eius veritatis voluptatem eveniet nostrum fugit veniam maiores, alias iusto. Illum minus nisi molestiae laudantium.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga neque maxime? Esse fuga officia autem, ipsam ad assumenda expedita doloremque molestias, unde hic eaque ducimus impedit quis laboriosam obcaecati.
+                    </p>
+                </div>
+                <div class="tab-content" id="second"> 
+                    <p>
+                        2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur sunt blanditiis dolor
+                        culpa at eius veritatis voluptatem eveniet nostrum fugit veniam maiores, alias iusto. Illum minus nisi molestiae laudantium.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, exercitationem ad cumque omnis sed facilis commodi, velit voluptate error deserunt veniam animi, numquam ea minus dolorem quia recusandae quo quis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, iure quisquam? Quae sequi id expedita, inventore quia aut quasi quo sunt dolor consequatur quod voluptas numquam saepe quis itaque! Aperiam?
+                    </p>
+                </div>
+                <div class="tab-content" id="third">
+                    <p>
+                        3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur sunt blanditiis dolor
+                        culpa at eius veritatis voluptatem eveniet nostrum fugit veniam maiores, alias iusto. Illum minus nisi molestiae laudantium.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+<script src="./src/js/main.js"></script>
+</body>
+</html>
